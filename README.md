@@ -53,13 +53,12 @@ We try to log all changes big and small in both [THE CHANGELOG](https://github.c
 
 ## Releasing
 
-1. Correctly compile, bump versions, tag things and push to GitHub
+Create a release and publish to [GitHub Actions Marketplace](https://docs.github.com/en/enterprise-cloud@latest/actions/creating-actions/publishing-actions-in-github-marketplace). Note that the release tag must be a [semantic version](https://semver.org/).
 
-  ```bash
-  yarn release
-  ```
+## Maintainers
 
-2. Publish to [GitHub Actions Marketplace](https://docs.github.com/en/enterprise-cloud@latest/actions/creating-actions/publishing-actions-in-github-marketplace)
+* [@pirog](https://github.com/pirog)
+* [@reynoldsalec](https://github.com/reynoldsalec)
 
 ## Contributors
 
@@ -71,4 +70,8 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 ## Other Resources
 
-* [Important advice](https://www.youtube.com/watch?v=WA4iX5D9Z64)
+* [LICENSE](/LICENSE)
+* [TERMS OF USE](https://docs.lando.dev/terms)
+* [PRIVACY POLICY](https://docs.lando.dev/privacy)
+* [CODE OF CONDUCT](https://docs.lando.dev/coc)
+
